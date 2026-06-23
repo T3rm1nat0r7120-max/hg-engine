@@ -2691,6 +2691,10 @@
 
 #define MAX_BASE_ITEM_NUM ITEM_CANARI_BREAD
 
+#define ITEM_INFINITE_RARE_CANDY (MAX_BASE_ITEM_NUM + 1)
+
+#define MAX_TOTAL_ITEM_NUM ITEM_INFINITE_RARE_CANDY
+
 // define your custom move effects below like this
 // #define ITEM_CUSTOM_1 (MAX_BASE_ITEM_NUM + 1)
 

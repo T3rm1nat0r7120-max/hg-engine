@@ -9,103 +9,23 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3
-       // Trainer 11
-       // Trainer 19
-       // Trainer 40
-       // Trainer 63
-       // Trainer 87
-       // Trainer 88
-       // Trainer 105
-       // Trainer 106
-       // Trainer 107
-       // Trainer 138
-       // Trainer 141
-       // Trainer 165
-       // Trainer 166
-       // Trainer 167
-       // Trainer 168
-       // Trainer 169
-       // Trainer 170
-       // Trainer 171
-       // Trainer 174
        // Trainer 175
        // Trainer 176
        // Trainer 177
-       // Trainer 180
-       // Trainer 194
-       // Trainer 207
-       // Trainer 208
        // Trainer 210
-       // Trainer 221
-       // Trainer 225
-       // Trainer 226
-       // Trainer 229
        // Trainer 243
-       // Trainer 262
        // Trainer 265
-       // Trainer 273
-       // Trainer 292
-       // Trainer 295
-       // Trainer 304
-       // Trainer 305
-       // Trainer 306
-       // Trainer 307
-       // Trainer 338
-       // Trainer 340
-       // Trainer 341
-       // Trainer 342
-       // Trainer 343
-       // Trainer 344
-       // Trainer 345
-       // Trainer 347
-       // Trainer 372
-       // Trainer 375
-       // Trainer 376
        // Trainer 377
        // Trainer 385
        // Trainer 387
-       // Trainer 394
        // Trainer 416
        // Trainer 426
-       // Trainer 442
-       // Trainer 443
-       // Trainer 473
-       // Trainer 474
-       // Trainer 475
-       // Trainer 476
-       // Trainer 477
        // Trainer 495
-       // Trainer 504
-       // Trainer 506
-       // Trainer 508
-       // Trainer 511
-       // Trainer 514
-       // Trainer 516
-       // Trainer 519
-       // Trainer 521
-       // Trainer 524
-       // Trainer 526
-       // Trainer 529
-       // Trainer 531
-       // Trainer 532
        // Trainer 533
        // Trainer 534
        // Trainer 535
        // Trainer 536
-       // Trainer 542
-       // Trainer 543
-       // Trainer 544
-       // Trainer 667
-       // Trainer 668
-       // Trainer 669
-       // Trainer 670
-       // Trainer 671
        // Trainer 675
-       // Trainer 707
-       // Trainer 708
-       // Trainer 709
-       // Trainer 710
-       // Trainer 711
     trainertextentry 495, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 495, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 495, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
@@ -2236,9 +2156,9 @@ _1444: // Trainer 698
     trainertextentry 698, TEXT_DEFEATED_IN_OVERWORLD, "If this is it, then I don’t mind losing!\n"
 
 _1450: // Trainer 699
-    trainertextentry 699, TEXT_NOTICE_IN_OVERWORLD, "There are many people out there who\nprefer solid bug Pokémon over squishy\fbug Pokémon.\r"
-    trainertextentry 699, TEXT_DEFEATED_IN_BATTLE, "Thanks for your hard work,\nmy lovely Pokémon...\n"
-    trainertextentry 699, TEXT_DEFEATED_IN_OVERWORLD, "Doesn’t matter what kind of Pokémon--\fas long as you like them, they all\nlook cute.\n\n"
+    trainertextentry 699, TEXT_NOTICE_IN_OVERWORLD, "I come from the Hoenn Region.\r The name is Winstrate Vito and im gonna conquer\r the Johto League!\n"
+    trainertextentry 699, TEXT_DEFEATED_IN_BATTLE, "First the Hoenn Trainer beat me\r now the Johto Trainer?\n"
+    trainertextentry 699, TEXT_DEFEATED_IN_OVERWORLD, "That was a good battle...\r Guess ill try to take\r on the Unova League next...\n"
 
 _145C: // Trainer 686
     trainertextentry 686, TEXT_NOTICE_IN_OVERWORLD, "What did you come all the way out here\nfor, I wonder.\r"
@@ -2780,22 +2700,34 @@ _192C: // Trainer 509
     trainertextentry 509, TEXT_DEFEATED_IN_BATTLE, "Urf!\nI lose!\n"
 
 _1930: // Trainer 460
-    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 460, TEXT_NOTICE_IN_OVERWORLD, "Hey its you again! I've been training\nalot since you beat me and Barry in\ffront of Bellsprout Tower. Lets see\nwho is stronger!\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Guess I still got a ways to go...\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_OVERWORLD, "Take this TM that is near me, Im sure\nyou'll have good use of it on your\fadventure!\n"
 
 _1934: // Trainer 461
-    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 461, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I'm not gonna lose\nthis battle!\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "That's 3 battles I've lost against\nyou...\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle but next time\nI am gonna win for sure!\n"
 
 _1938: // Trainer 512
-    trainertextentry 512, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 512, TEXT_NOTICE_IN_OVERWORLD, "This is where I am at my strongest.\nGet ready for one tough battle!!\n"
+    trainertextentry 512, TEXT_DEFEATED_IN_BATTLE, "You are the better Trainer...\n"
+    trainertextentry 512, TEXT_DEFEATED_IN_OVERWORLD, "I am glad to have met a trainer as\nstrong as you! This is motivation to\fget even more stronger!\n"
 
 _193C: // Trainer 279
-    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 279, TEXT_NOTICE_IN_OVERWORLD, "We meet again. I saw your battle with\nMorty. That was a great battle but now\flets see how you fare against me!\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "Guess you are better than I\nthought...\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_OVERWORLD, "Next time we battle its gonna be\nphenomenal I can't wait!!\n"
 
 _1940: // Trainer 280
-    trainertextentry 280, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 280, TEXT_NOTICE_IN_OVERWORLD, "Me and Sceptile arent gonna lose! We\nhave gotten stronger and even got Mega\fEvolution!\n"
+    trainertextentry 280, TEXT_DEFEATED_IN_BATTLE, "Even with Mega Evolution we cant win...\n"
+    trainertextentry 280, TEXT_DEFEATED_IN_OVERWORLD, "Looks like we gotta train even harder\nif we ever want a chance at beating\fyou!\n"
 
 _1944: // Trainer 510
-    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 510, TEXT_NOTICE_IN_OVERWORLD, "I heard you became champion!\nCongratulations! Now is the perfect\ftime to test my strength against the\nchampion of Johto!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "Woah... This is how strong the\nchampion of Johto is... Amazing!!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_OVERWORLD, "You should come to the Hoenn Region\nsometime to take on the Hoenn\fleague!\n"
 
 _1948: // Trainer 430
     trainertextentry 430, TEXT_DEFEATED_IN_BATTLE, "Huh?\n"
@@ -2825,13 +2757,19 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and I am from\nthe Unova Region! I wanna see how\fstrong you are. Now lets go!!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers were\nthis strong...\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you again once\nI get stronger!\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going to beat\nyou this time so prepare yourself!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise you\nthat! for now have the TM next to me\fas a reward!!\n"
 
 _1974: // Trainer 618
-    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 618, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont hold back,\nget ready to lose!!\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "Even after I have gotten so strong I\nstill cant beat you...\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_OVERWORLD, "For some reason I knew I would lose\nto you again. I'm glad that i got to\fmeet a very strong trainer from the\nJohto Region!!\n"
 
 _1978: // Trainer 250
     trainertextentry 250, TEXT_DEFEATED_IN_BATTLE, "Waaaargh!\n"
@@ -2870,13 +2808,20 @@ _19A4: // Trainer 522
     trainertextentry 522, TEXT_DEFEATED_IN_BATTLE, "I played too much!\n"
 
 _19A8: // Trainer 100
-    trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei I am an Ex\nElite Four member. I came to Johto to\fexplore the Ice Path to see what ice\ntype pokemon appeared here. We should\fhave a battle to see what you are\ncapable of!\n"
+    trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Well this is an interesting outcome!\n"
+    trainertextentry 100, TEXT_DEFEATED_IN_OVERWORLD, "This was a great battle experience!\nCollect the TM beside me to help you\fon your journey!\n"
 
 _19AC: // Trainer 155
-    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 155, TEXT_NOTICE_IN_OVERWORLD, "You remind me of a boy from pallet\ntown that challenged the league 3\fyears ago!I am Agatha! an Ex Elite\nFour member and I use Ghost type\fPokemon!\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Beaten by a mere brat again... You've\ngot what it takes to compete in the\fPokemon League\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_OVERWORLD, "There is a TM nearby. It will help\nyou on your journey.\n"
 
 _19B0: // Trainer 523
-    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them… the voices of your\nPokémon. They speak of trust between\fyou. I am N, a traveler who listens to\nthe hearts of Pokémon. Let us battle,\fand see what truth your bond\nreveals.\n"
+    trainertextentry 523, TEXT_LAST_MON_SENT_OUT, "So this is the strength born from\nyour bond… Then my partner and I will\fanswer with everything we have!\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon… they’re happy. I can\nhear it clearly.\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps the future I once believed in\nwas incomplete… The bond between\fpeople and Pokémon may be stronger\nthan I imagined.\n"
 
 _19B4: // Trainer 619
     trainertextentry 619, TEXT_DEFEATED_IN_BATTLE, "Ow!\nI scorched the tip of my nose!\n"
@@ -2996,13 +2941,19 @@ _1A4C: // Trainer 610
     trainertextentry 610, TEXT_DEFEATED_IN_BATTLE, "I couldn’t show off...\n"
 
 _1A50: // Trainer 142
-    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 142, TEXT_NOTICE_IN_OVERWORLD, "My name is Nate and I am also from\nthe Unova Region! Lets see how good\fyou are!\r"
+    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "You are strong! I gotta up my game to\nbeat you...\n"
+    trainertextentry 142, TEXT_DEFEATED_IN_OVERWORLD, "Next time we meet Im going to win for sure!!\n"
 
 _1A54: // Trainer 334
-    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do. Lets see\nwho is stronger now, Me or You!\r"
+    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Wow! you are a strong trainer thats\nfor sure...\n"
+    trainertextentry 334, TEXT_DEFEATED_IN_OVERWORLD, "I can just tell you are going to be\nchampion\rtake this TM that is beside\fme it’ll help you on your journey!\n"
 
 _1A58: // Trainer 520
-    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 520, TEXT_NOTICE_IN_OVERWORLD, "So you became champion of the Johto\nRegion? Thats great! Now I wanna\fbattle you and your Pokemon at full\npower!!\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "I'm still not strong enough to beat\nyou...\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_OVERWORLD, "You are a great trainer! You should\ncome to the Unova Region sometime and\ftake on the Unova League!!\n"
 
 _1A5C: // Trainer 622
     trainertextentry 622, TEXT_DEFEATED_IN_BATTLE, "Arrgh! This is NOT my day!\n"
@@ -3041,10 +2992,14 @@ _1A88: // Trainer 612
     trainertextentry 612, TEXT_DEFEATED_IN_BATTLE, "Whew! You’re hot stuff.\n"
 
 _1A8C: // Trainer 462
-    trainertextentry 462, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
+    trainertextentry 462, TEXT_NOTICE_IN_OVERWORLD, "My name is Iris! I am a Dragon type\nSpecialist from the Unova Region! I\fwanna see how strong a Johto Trainer\nis."
+    trainertextentry 462, TEXT_DEFEATED_IN_BATTLE, "You really are strong...\n"
+    trainertextentry 462, TEXT_DEFEATED_IN_OVERWORLD, "I'm gonna get stronger just you\nwait!\n"
 
 _1A90: // Trainer 463
-    trainertextentry 463, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
+    trainertextentry 463, TEXT_NOTICE_IN_OVERWORLD, "Hey we run into each other again!\nI've gotten stronger, have you gotten\fstronger?\n"
+    trainertextentry 463, TEXT_DEFEATED_IN_BATTLE, "I really cant figure you out...\n"
+    trainertextentry 463, TEXT_DEFEATED_IN_OVERWORLD, "You won this battle but me and my\npokemon are gonna train alot more!\n"
 
 _1A94: // Trainer 515
     trainertextentry 515, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
@@ -3053,19 +3008,30 @@ _1A98: // Trainer 613
     trainertextentry 613, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
 
 _1A9C: // Trainer 614
-    trainertextentry 614, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
+    trainertextentry 614, TEXT_NOTICE_IN_OVERWORLD, "Hello there! Nate and Rosa have told\nme about you! My name is Bianca! I am\fProf. Junipers assistant, I wanna see\nhow good you are in double battle\fformat!\n"
+    trainertextentry 614, TEXT_DEFEATED_IN_BATTLE, "You are pretty good in Double battle\nformat...\n"
+    trainertextentry 614, TEXT_DEFEATED_IN_OVERWORLD, "Thank you for the battle! Take the TM\nbeside me on your journey I'm sure\fyou'll use it very well!!\n"
 
 _1AA0: // Trainer 615
-    trainertextentry 615, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
+    trainertextentry 615, TEXT_NOTICE_IN_OVERWORLD,"Welcome. My name is Steven. I’m a\nTrainer who has devoted his life to\fstudying rare stones and the pokemon\nthat dwell within them… I currently\fstand as the Champion of Hoenn, Show\nme the strength that brought you this\ffar.\n"
+    trainertextentry 615, TEXT_DEFEATED_IN_BATTLE, "Incredible… Your strength shines with\nthe brilliance of a perfectly cut\fgemstone.\n"
+    trainertextentry 615, TEXT_DEFEATED_IN_OVERWORLD, "Battles like ours are treasures I’ll\nnever forget. Continue polishing your\fskills, I have no doubt you’ll shine\neven brighter.\n"
 
 _1AA4: // Trainer 274
-    trainertextentry 274, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 274, TEXT_NOTICE_IN_OVERWORLD, "Why hello there! My name is Leaf!\nJudging by your Gym Badges you are\ffrom the Johto Region? Let me test\nyour skills to see how strong you\fare!!\n"
+    trainertextentry 274, TEXT_DEFEATED_IN_BATTLE, "That was a great battle!!\n"
+    trainertextentry 274, TEXT_DEFEATED_IN_OVERWORLD, "I hope to balle you again in the\nfuture!\n"
 
 _1AA8: // Trainer 275
-    trainertextentry 275, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 275, TEXT_NOTICE_IN_OVERWORLD, "Its been awhile! Remember me? I’ve\ngotten stronger since last time!\n"
+    trainertextentry 275, TEXT_DEFEATED_IN_BATTLE, "Haha i knew this was going to\nhappen... You win.\n"
+    trainertextentry 275, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle I hope to\nbattle you again!\n"
 
 _1AAC: // Trainer 525
-    trainertextentry 525, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 525, TEXT_NOTICE_IN_OVERWORLD, "Are you ready for Round 2? I am alot\nstronger then I was when you battled\fme as a Gym Leader!\n"
+    trainertextentry 525, TEXT_LAST_MON_SENT_OUT, "Heh, not bad! But this is where\nthings get serious! let’s see you\fhandle my best!\n"
+    trainertextentry 525, TEXT_DEFEATED_IN_BATTLE, "Whoa… you actually pulled it off!\nGuess I’ve still got room to grow.\n"
+    trainertextentry 525, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! Battles like that\nare what keep me pushing to get\fstronger.\n"
 
 _1AB0: // Trainer 360
     trainertextentry 360, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
@@ -3077,13 +3043,19 @@ _1AB8: // Trainer 513
     trainertextentry 513, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
 
 _1ABC: // Trainer 464
-    trainertextentry 464, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 464, TEXT_NOTICE_IN_OVERWORLD, "I've been losing to Lucas\r alot and I have been doing\r alot of training so I wanna see how\r strong i have gotten!!\n"
+    trainertextentry 464, TEXT_DEFEATED_IN_BATTLE, "Wow you might even be stronger\r than lucas...\n"
+    trainertextentry 464, TEXT_DEFEATED_IN_OVERWORLD, "Alright I think I have gotten strong\r enough to take on Lucas now.\nThank you for the battle!!\n"
 
 _1AC0: // Trainer 465
-    trainertextentry 465, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 465, TEXT_NOTICE_IN_OVERWORLD, "Lets take this battle all the way to\nthe top!!\n"
+    trainertextentry 465, TEXT_DEFEATED_IN_BATTLE, "I knew i would lose against you...\nYou are just like Lucas.\n"
+    trainertextentry 465, TEXT_DEFEATED_IN_OVERWORLD, "That was great! Lets battle again\nsometime!\n"
 
 _1AC4: // Trainer 528
-    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 528, TEXT_NOTICE_IN_OVERWORLD, "Hey My name is Wally! I am from the Hoenn Region! I am good friends with Brendan and May! They have taught me what it means to be a trainer Let me see how strong you are as a Trainer!\n"
+    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "Brendan and May were right. You\nreally are strong...\n"
+    trainertextentry 528, TEXT_DEFEATED_IN_OVERWORLD, "I can't wait to battle with you\nagain!\n"
 
 _1AC8: // Trainer 628
     trainertextentry 628, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
@@ -3093,6 +3065,407 @@ _1ACC: // Trainer 629
 
 _1AD0: // Trainer 630
     trainertextentry 630, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+
+_1AD4: // Trainer 11
+    trainertextentry 11, TEXT_NOTICE_IN_OVERWORLD, "This will be our last battle! Get\nready because Me and my Pokemon are\fready to win this with all of our\nhearts!\n"
+    trainertextentry 11, TEXT_DEFEATED_IN_BATTLE, "This was a great battle... Thank\nyou!\n"
+    trainertextentry 11, TEXT_DEFEATED_IN_OVERWORLD, "I have a feeling you'll beat everyone\nin Mt.Silver and be the Strongest\fTrainer.\n"
+
+_1AD8: // Trainer 19
+    trainertextentry 19, TEXT_NOTICE_IN_OVERWORLD, "So you made it past Brendan and the\nother Trainers. Current Champion of\fJohto vs the current Champion of\nHoenn! Lets see whose stronger!!"
+    trainertextentry 19, TEXT_DEFEATED_IN_BATTLE, "You really are the real deal...\n"
+    trainertextentry 19, TEXT_DEFEATED_IN_OVERWORLD, "Go on ahead, there are alot more\npowerful Trainers up ahead!\n"
+
+_1ADC: // Trainer 40
+    trainertextentry 40, TEXT_NOTICE_IN_OVERWORLD, "Its been awhile. Have you been keeping\nwell? I can't wait to see how strong\fyou have gotten since the last time we\nbattled back on Route 44.\n"
+    trainertextentry 40, TEXT_DEFEATED_IN_BATTLE, "Congratulations... You have beaten\nme...\n"
+    trainertextentry 40, TEXT_DEFEATED_IN_OVERWORLD, "There are still a few trainers to go\nthrough before you get to the top.\n"
+
+_1AE0: // Trainer 63
+    trainertextentry 63, TEXT_NOTICE_IN_OVERWORLD, "Well well, Its good to see you again.\nI hope the other Trainers gave you a\fchallenge! Its only gonna get worse\nfrom here!\n"
+    trainertextentry 63, TEXT_DEFEATED_IN_BATTLE, "What a fantastic battle!\n"
+    trainertextentry 63, TEXT_DEFEATED_IN_OVERWORLD, "Go on ahead! The battles ahead will be\nalot more challenging!\n"
+
+_1AE4: // Trainer 87
+    trainertextentry 87, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 87, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 87, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AE8: // Trainer 88
+    trainertextentry 88, TEXT_NOTICE_IN_OVERWORLD, "It is nice to meet you, My name is\nWallace! I am a former Gym Leader and\falso former Champion of the Hoenn\nRegion! I am very skilled in using\fWater type Pokemon, I hope you can\nhandle the rain!!\n"
+    trainertextentry 88, TEXT_DEFEATED_IN_BATTLE, "What a beautiful display of battle\nskill you and your pokemon have...\n"
+    trainertextentry 88, TEXT_DEFEATED_IN_OVERWORLD, "Me and my water types stood no chance\nagainst you. You may proceed ahead.\n"
+
+_1AEC: // Trainer 105
+    trainertextentry 105, TEXT_NOTICE_IN_OVERWORLD, "Its you! I am glad you made it this\nfar but now I will test you to see if\fyou are ready for the battles ahead!\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_BATTLE, "Me and my Pokemon tried our best...\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_OVERWORLD, "You are ready for the battles ahead.\nNo wonder you beat Brendan and May the\fway you did!\n"
+
+_1AF0: // Trainer 106
+    trainertextentry 106, TEXT_NOTICE_IN_OVERWORLD, "Hey there my name is Ash Ketchum and I\ncome from Pallet Town! Well not this\ftimelines Pallet Town.. I got dragged\nthrough a wormhole and got sent here\fto Mt.Silver. Lets have a battle! Me\nand Pikachu are really strong.\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_BATTLE, "Man you are tough... Lets battle again\nsometime!\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_OVERWORLD, "I wonder if there is someone like you\nin my timeline...\n"
+
+_1AF4: // Trainer 107
+    trainertextentry 107, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 107, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 107, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AF8: // Trainer 138
+    trainertextentry 138, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 138, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 138, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AFC: // Trainer 141
+    trainertextentry 141, TEXT_NOTICE_IN_OVERWORLD, "Welcome to Mt.Silver! I am gonna beat\nyou then after that I will challenge\fLucas!\n"
+    trainertextentry 141, TEXT_DEFEATED_IN_BATTLE, "Damnit I thought i would win this\nbattle...\n"
+    trainertextentry 141, TEXT_DEFEATED_IN_OVERWORLD, "Guess I need to train way more than I\nthought... Oh well I'm glad that I got\fto battle with the Champion of\nJohto!\n"
+
+_1B00: // Trainer 165
+    trainertextentry 165, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 165, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 165, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B04: // Trainer 166
+    trainertextentry 166, TEXT_NOTICE_IN_OVERWORLD, "Hello Trainer, My name is Roxanne I am\na Gym Leader from the Hoenn Region! I\falso run a Trainer School in the Hoenn\nRegion, I want to see if you can beat\fmy Rock type Pokemon!!\n"
+    trainertextentry 166, TEXT_DEFEATED_IN_BATTLE, "You are indeed a good Trainer...\n"
+    trainertextentry 166, TEXT_DEFEATED_IN_OVERWORLD, "You should head to the Trainer school\nin Violet City to learn about type\fweaknesses to gain the upper hand in\nfuture battles!\n"
+
+_1B08: // Trainer 167
+    trainertextentry 167, TEXT_NOTICE_IN_OVERWORLD, "My name is Volkner, I am yet to find a\nTrainer from Johto to beat me. Will\fyou be able to beat Me and my Electric\ntype Pokemon?\n"
+    trainertextentry 167, TEXT_DEFEATED_IN_BATTLE, "Man that battle really had me going!\n"
+    trainertextentry 167, TEXT_DEFEATED_IN_OVERWORLD, "Thank you for the amazing battle! Come\nto Sinnoh sometime and I'll be sure to\fgive you a proper battle.\n"
+
+_1B0C: // Trainer 168
+    trainertextentry 168, TEXT_NOTICE_IN_OVERWORLD, "My name is Flannery and I get fired up\nwhen I see a strong and interesting\fTrainer! Me and my Fire type Pokemon\nare ready for whatever you bring to\fthe battle!\n"
+    trainertextentry 168, TEXT_DEFEATED_IN_BATTLE, "Damn I'm all burnt out...\n"
+    trainertextentry 168, TEXT_DEFEATED_IN_OVERWORLD, "I may be the youngest Hoenn Gym Leader\nbut I am pretty strong you should come\fto Hoenn!\n"
+
+_1B10: // Trainer 169
+    trainertextentry 169, TEXT_NOTICE_IN_OVERWORLD, "Heyo! The name is Maylene and I am the\nFighting type Gym Leader from the\fSinnoh Region! Lets see if you can\nhandle my Pokemons Fists!\n"
+    trainertextentry 169, TEXT_DEFEATED_IN_BATTLE, "I lost...\n"
+    trainertextentry 169, TEXT_DEFEATED_IN_OVERWORLD, "That was a great experience! I need to\ntrain more for the future!\n"
+
+_1B14: // Trainer 170
+    trainertextentry 170, TEXT_NOTICE_IN_OVERWORLD, "Im Brawly! The Fighting type Gym\nLeader of Hoenn. You beat Maylene I\fsee, we both are experts with Fighting\ntypes so I wanna see if you can beat\fme!\n"
+    trainertextentry 170, TEXT_DEFEATED_IN_BATTLE, "Wow you are good thats for sure...\n"
+    trainertextentry 170, TEXT_DEFEATED_IN_OVERWORLD, "So who is the better Fighting type\nspecialist? Me or Maylene.\n"
+
+_1B18: // Trainer 171
+    trainertextentry 171, TEXT_NOTICE_IN_OVERWORLD, "Ahh… you have come, yes? I am Fantina,\nGym Leader of Hearthome. With grace\fand elegance, I shall show you a\nbattle most magnifique!\n"
+    trainertextentry 171, TEXT_DEFEATED_IN_BATTLE, "Mon Dieu… such strength! You have\ndanced most beautifully.\n"
+    trainertextentry 171, TEXT_DEFEATED_IN_OVERWORLD, "A battle is like a grand performance,\nno? Win or lose, what matters is the\felegance of one’s steps… and yours\nwere divine.\n"
+
+_1B1C: // Trainer 174
+    trainertextentry 174, TEXT_NOTICE_IN_OVERWORLD, "Our minds are connected in battle. Can\nyou keep up with us both?\n"
+    trainertextentry 174, TEXT_DEFEATED_IN_BATTLE, "But we battled together…\n"
+    trainertextentry 174, TEXT_DEFEATED_IN_OVERWORLD, "Your bond with your Pokémon is\namazing… it matched ours!\n"
+
+_1B20: // Trainer 180
+    trainertextentry 180, TEXT_NOTICE_IN_OVERWORLD, "Hehe! I sensed you coming! Let’s see\nhow strong you really are!\n"
+    trainertextentry 180, TEXT_DEFEATED_IN_BATTLE, "Oh no… we lost…\n"
+    trainertextentry 180, TEXT_DEFEATED_IN_OVERWORLD, "Wow… you’re really strong! That was\nfun!\n"
+
+_1B24: // Trainer 194
+    trainertextentry 194, TEXT_NOTICE_IN_OVERWORLD, "Alright! Time to show you the power of\ndigging into battle head on! Let’s go,\fDad!\n"
+    trainertextentry 194, TEXT_DEFEATED_IN_BATTLE, "Whoa… guess I still have more to\nlearn…\n"
+    trainertextentry 194, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! Battling like this\nreally fires me up!\n"
+
+_1B28: // Trainer 207
+    trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "Stand firm, Roark. A true battle is\nbuilt on solid foundations. Now,\fchallenger, face the strength of steel\nand stone.\n"
+    trainertextentry 207, TEXT_DEFEATED_IN_BATTLE, "Hm… our defenses were not enough…\n"
+    trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "You’ve proven your strength. Continue\nto build it, layer by layer, like the\ffinest steel.\n"
+
+_1B2C: // Trainer 208
+    trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Welcome, challenger. I am Winona, who\nsoars with the wind and skies of\rHoenn. Let us see if your spirit can\nrise to meet mine.\n"
+    trainertextentry 208, TEXT_DEFEATED_IN_BATTLE, "You have soared higher than I… a truly\nelegant battle.\n"
+    trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "Like the wind, you are ever moving and\nfree. Continue to rise, and your\rstrength will know no bounds.\n"
+
+_1B30: // Trainer 221
+    trainertextentry 221, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Gardenia, the\nGrass type Gym Leader! You ready to\rsee how tough nature can be when it’s\nin full bloom?\n"
+    trainertextentry 221, TEXT_DEFEATED_IN_BATTLE, "No way… you cut right through me!\n"
+    trainertextentry 221, TEXT_DEFEATED_IN_OVERWORLD, "Wow, that was an awesome battle!\nYou’ve really grown strong, just like\ra well raised Pokémon!\n"
+
+_1B34: // Trainer 225
+    trainertextentry 225, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Candice, the Snowpoint\nGym Leader! Ready to chill out with a\rred hot battle?\n"
+    trainertextentry 225, TEXT_DEFEATED_IN_BATTLE, "Whoa! You totally melted through my\nteam!\n"
+    trainertextentry 225, TEXT_DEFEATED_IN_OVERWORLD, "That was so cool! You’ve got serious\nstrength, keep that fire burning\rbright!\n"
+
+_1B38: // Trainer 262
+    trainertextentry 262, TEXT_NOTICE_IN_OVERWORLD, "Welcome, challenger. I am Juan, master\nof elegance in battle. Together with\rmy partner, we shall create a most\ndazzling display.\n"
+    trainertextentry 262, TEXT_DEFEATED_IN_BATTLE, "Ah… our rhythm has been disrupted…\n"
+    trainertextentry 262, TEXT_DEFEATED_IN_OVERWORLD, "Even in defeat, there is beauty. You\nhave performed splendidly.\n"
+
+_1B3C: // Trainer 273
+    trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "Ahahaha! Welcome, young Trainer! I’m\nWattson, and I’ve got a shocking good\rtime planned for you!\n"
+    trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "Oh ho! You short circuited my plans!\n"
+    trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "Ahahaha! That was electrifying! Keep\nthat energy flowing, and you’ll go\rfar!\n"
+
+_1B40: // Trainer 292
+    trainertextentry 292, TEXT_NOTICE_IN_OVERWORLD, "Hey! I was hoping we’d run into each\nother again. I’ve been training\rnonstop since our last battle, this\ntime, I won’t fall behind!\n"
+    trainertextentry 292, TEXT_DEFEATED_IN_BATTLE, "Ah… you’re still one step ahead… but\nI’m catching up!\n"
+    trainertextentry 292, TEXT_DEFEATED_IN_OVERWORLD, "Battling you really shows me how much\nfurther I can go. Next time, I’ll be\reven stronger!\n"
+
+_1B44: // Trainer 295
+    trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "Whoa! You made it all the way here\ntoo? Hah! That means you’ve gotta be\rstrong! I’m Benga let’s have a battle\nthat’ll shake Victory Road!\n"
+    trainertextentry 295, TEXT_DEFEATED_IN_BATTLE, "Haha! That was incredible! You’re\nseriously strong!\n"
+    trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "Battles like that are the best! I’m\ngonna keep training till I can match\ryou no, beat you next time!\n"
+
+_1B48: // Trainer 304
+    trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "Hey… I was hoping we’d meet again.\nThis is it. our final battle. I’ve\rgiven it everything I’ve got to get\nhere, so I won’t hold anything back!\n"
+    trainertextentry 304, TEXT_DEFEATED_IN_BATTLE, "I… gave it my all… and I’m still\nsmiling. That means I’ve really\rgrown.\n"
+    trainertextentry 304, TEXT_DEFEATED_IN_OVERWORLD, "Thank you for battling me all this\nway. I’m going to keep going, keep\rimproving… just like you.\n"
+
+_1B4C: // Trainer 305
+    trainertextentry 305, TEXT_NOTICE_IN_OVERWORLD, "…You have come far to stand before me.\nI am Brandon, the Pyramid King. Beyond\rthis point lies a trial not of\nstrength alone, but of endurance and\rresolve. If you wish to proceed, you\nmust prove yourself.\n"
+    trainertextentry 305, TEXT_DEFEATED_IN_BATTLE, "…Impressive. You have overcome the\ntrial I set before you.\n"
+    trainertextentry 305, TEXT_DEFEATED_IN_OVERWORLD, "Strength, patience, and unwavering\nwill… You possess all three. Proceed,\rand face what lies ahead.\n"
+
+_1B50: // Trainer 306
+    trainertextentry 306, TEXT_NOTICE_IN_OVERWORLD, "Ah, so you’ve survived this far…\nPerfect! I’m Noland, Factory Director\rextraordinaire, and I never let a\nchallenge go to waste. Let’s see if\ryou can handle the chaos I’ve cooked\nup for you!\n"
+    trainertextentry 306, TEXT_DEFEATED_IN_BATTLE, "Ha! I didn’t see that coming… You’ve\ngot guts, I’ll give you that!\n"
+    trainertextentry 306, TEXT_DEFEATED_IN_OVERWORLD, "Wow… you’re really on a roll! Keep\nthis up and I’m betting you’ll reach\rthe top of this gauntlet!\n"
+
+_1B54: // Trainer 307
+    trainertextentry 307, TEXT_NOTICE_IN_OVERWORLD, "Ah, a new challenger steps onto my\nturf! I am Lucy, the Pike Queen! Only\rthe boldest Trainers can survive the\ntwists and turns of my arena… do you\rhave what it takes?\n"
+    trainertextentry 307, TEXT_DEFEATED_IN_BATTLE, "Hah! I didn’t expect that… you’ve got\nreal skill!\n"
+    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "Impressive! You navigated my Pike and\nbattled with flair. Keep it up, you’ve\rgot the heart of a true champion!\n"
+
+_1B58: // Trainer 338
+    trainertextentry 338, TEXT_NOTICE_IN_OVERWORLD, "Ha! You’ve come all this way, huh? I’m\nTucker, the Dome Ace! Prepare yourself\rfor a battle that’s nothing short of\nspectacular!\n"
+    trainertextentry 338, TEXT_DEFEATED_IN_BATTLE, "Whoa… you stole the spotlight! I\ndidn’t see that coming!\n"
+    trainertextentry 338, TEXT_DEFEATED_IN_OVERWORLD, "That was incredible! You’ve got flair,\nguts, and the skill to match… keep it\rup!\n"
+
+_1B5C: // Trainer 340
+    trainertextentry 340, TEXT_NOTICE_IN_OVERWORLD, "…I am Anabel, Tower Tycoon. Only those\nwho remain calm under pressure can\rhope to stand against me. Show me if\nyou have the skill to endure.\n"
+    trainertextentry 340, TEXT_DEFEATED_IN_BATTLE, "…You have done well. Your composure\ncarried you through.\n"
+    trainertextentry 340, TEXT_DEFEATED_IN_OVERWORLD, "Strength is not only in power… it is\nin control. Remember this, and you may\rgo even further.\n"
+
+_1B60: // Trainer 341
+    trainertextentry 341, TEXT_NOTICE_IN_OVERWORLD, "So… you’ve made it this far. I am\nSpencer, Palace Maven, and beyond this\rpoint lies no ordinary battle. Every\nchoice, every move… will be tested.\rShow me that you are worthy of the\ngauntlet’s crown.\n"
+    trainertextentry 341, TEXT_DEFEATED_IN_BATTLE, "Impossible… Your mastery surpasses\neven my expectations. You have\rconquered the gauntlet.\n"
+    trainertextentry 341, TEXT_DEFEATED_IN_OVERWORLD, "You have proven yourself through every\ntrial, every test. The gauntlet\rbelongs to you… and you have earned\nthis victory with both wisdom and\rstrength.\n"
+
+_1B64: // Trainer 342
+    trainertextentry 342, TEXT_NOTICE_IN_OVERWORLD, "Heh… so, you’ve come all the way up\nhere. I’m Sidney, Elite Four of Hoenn.\rLet’s see if your courage can pierce\nthe shadows I command!\n"
+    trainertextentry 342, TEXT_DEFEATED_IN_BATTLE, "Tch… you’ve survived my shadows…\nimpressive.\n"
+    trainertextentry 342, TEXT_DEFEATED_IN_OVERWORLD, "The night tests all who walk it.\nYou’ve passed with flying colors… for\rnow.\n"
+
+_1B68: // Trainer 343
+    trainertextentry 343, TEXT_NOTICE_IN_OVERWORLD, "Ah… the air feels thick with fate. I\nam Phoebe. Only those who embrace the\rspirits’ whispers can stand against\nme.\n"
+    trainertextentry 343, TEXT_DEFEATED_IN_BATTLE, "…You’ve confronted the darkness and\nprevailed. Well done.\n"
+    trainertextentry 343, TEXT_DEFEATED_IN_OVERWORLD, "The spirits guide you… but your\njourney is not over yet.\n"
+
+_1B6C: // Trainer 344
+    trainertextentry 344, TEXT_NOTICE_IN_OVERWORLD, "So… you’ve reached these heights. I am\nGlacia. Only those with unwavering\rfocus can weather the cold of my\nbattlefield.\n"
+    trainertextentry 344, TEXT_DEFEATED_IN_BATTLE, "Hmph… you melted my defenses.\nImpressive work.\n"
+    trainertextentry 344, TEXT_DEFEATED_IN_OVERWORLD, "Even in freezing winds, you stand\ntall. Keep your resolve strong.\n"
+
+_1B70: // Trainer 345
+    trainertextentry 345, TEXT_NOTICE_IN_OVERWORLD, "Ah… the path to Mt. Silver brings only\nthe strongest here. I am Drake, and my\rdragons will test every limit of your\nstrength.\n"
+    trainertextentry 345, TEXT_DEFEATED_IN_BATTLE, "…Such skill… You have mastered the\nstorm of dragons.\n"
+    trainertextentry 345, TEXT_DEFEATED_IN_OVERWORLD, "Few can withstand the fury of dragons.\nYou’ve earned your place among the\rstrong.\n"
+
+_1B74: // Trainer 347
+    trainertextentry 347, TEXT_NOTICE_IN_OVERWORLD, "So… you’ve made it this far. I am\nAaron. Only the calm and precise can\rsurvive against the swarm I command.\n"
+    trainertextentry 347, TEXT_DEFEATED_IN_BATTLE, "…Impressive. You weathered the swarm\nand prevailed.\n"
+    trainertextentry 347, TEXT_DEFEATED_IN_OVERWORLD, "The forest tests all who walk its\npaths… and you’ve passed. Well done.\n"
+
+_1B78: // Trainer 372
+    trainertextentry 372, TEXT_NOTICE_IN_OVERWORLD, "Ah… the strength of the earth is not\neasily overcome. I am Bertha. Let us\rsee if you can withstand the power of\nstone and soil.\n"
+    trainertextentry 372, TEXT_DEFEATED_IN_BATTLE, "The earth has tested you… and you have\nendured.\n"
+    trainertextentry 372, TEXT_DEFEATED_IN_OVERWORLD, "Strength comes from the deepest roots.\nYou’ve proven yours today.\n"
+
+_1B7C: // Trainer 375
+    trainertextentry 375, TEXT_NOTICE_IN_OVERWORLD, "Ah! You’ve made it this far… I am\nFlint. Flames test both courage and\rresolve. let’s see if you can handle\nthe heat!\n"
+    trainertextentry 375, TEXT_DEFEATED_IN_BATTLE, "Hah… you’ve endured the flames…\nimpressive work!\n"
+    trainertextentry 375, TEXT_DEFEATED_IN_OVERWORLD, "Fire tests those who are bold and\nsteadfast. You’ve proven you can stand\rthe heat.\n"
+
+_1B80: // Trainer 376
+    trainertextentry 376, TEXT_NOTICE_IN_OVERWORLD, "So, you’ve made it this far… I am\nLucian. Only those with focus of mind\rand body can withstand the precision\nof psychic power.\n"
+    trainertextentry 376, TEXT_DEFEATED_IN_BATTLE, "…You’ve mastered both your mind and\nyour Pokémon. Excellent work.\n"
+    trainertextentry 376, TEXT_DEFEATED_IN_OVERWORLD, "True strength comes from clarity of\nthought and will. You’ve proven\rboth.\n"
+
+_1B84: // Trainer 394
+    trainertextentry 394, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m May! Let’s see how\nstrong you are! This battle’s going to\rbe amazing!\n"
+    trainertextentry 394, TEXT_DEFEATED_IN_BATTLE, "Aww… I guess I still have more to\nlearn!\n"
+    trainertextentry 394, TEXT_DEFEATED_IN_OVERWORLD, "That was fun! I’ll keep training so I\ncan do even better next time!\n"
+
+_1B88: // Trainer 442
+    trainertextentry 442, TEXT_NOTICE_IN_OVERWORLD, "Hello! I’m Lucas. This is my first\ndouble battle against a trainer like\ryou… let’s make it a fair fight!\n"
+    trainertextentry 442, TEXT_DEFEATED_IN_BATTLE, "I… miscalculated… but we’ll improve\nnext time.\n"
+    trainertextentry 442, TEXT_DEFEATED_IN_OVERWORLD, "That was a good match. You pushed us\nboth to think carefully.\n"
+
+_1B8C: // Trainer 443
+    trainertextentry 443, TEXT_NOTICE_IN_OVERWORLD, "HEY! I’m Barry! This is my first\ndouble battle too! Get ready, because\rwe’re going all out!!\n"
+    trainertextentry 443, TEXT_DEFEATED_IN_BATTLE, "WHAA?! I… I can’t believe we lost!\nThat was insane!!\n"
+    trainertextentry 443, TEXT_DEFEATED_IN_OVERWORLD, "Whoa! That was awesome! Next time,\nwe’ll totally crush you!!\n"
+
+_1B90: // Trainer 473
+    trainertextentry 473, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Brendan! Let’s see what\nyou’re made of. This battle’s going to\rbe exciting!\n"
+    trainertextentry 473, TEXT_DEFEATED_IN_BATTLE, "Whoa… you’re really strong! I’ll keep\ngetting better!\n"
+    trainertextentry 473, TEXT_DEFEATED_IN_OVERWORLD, "That was a lot of fun! I’ll train even\nharder so we can battle again\rsomeday!\n"
+
+_1B94: // Trainer 474
+    trainertextentry 474, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 474, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 474, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B98: // Trainer 475
+    trainertextentry 475, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Dawn! Let’s see how strong you\nare. I’m ready for my very first battle\rwith you!\n"
+    trainertextentry 475, TEXT_DEFEATED_IN_BATTLE, "Oh… I didn’t win… but that was really\nfun!\n"
+    trainertextentry 475, TEXT_DEFEATED_IN_OVERWORLD, "Wow! You’re really strong! I’ll train\neven harder so we can battle again!\n"
+
+_1B9C: // Trainer 476
+    trainertextentry 476, TEXT_NOTICE_IN_OVERWORLD, "Hey! so now it’s time to see who’s\nreally stronger!\n"
+    trainertextentry 476, TEXT_DEFEATED_IN_BATTLE, "Ah… I didn’t win… but that was so much\nfun!\n"
+    trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "You’re really strong! I’ll train even\nharder, next time, I’m going to win!\n"
+
+_1BA0: // Trainer 477
+    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "So… you’re the Trainer I’ve heard\nabout. I’m Cynthia. Let’s see how\rstrong you really are. show me the bond\nyou share with your Pokémon.\n"
+    trainertextentry 477, TEXT_DEFEATED_IN_BATTLE, "Hmm… impressive. You’ve got skill\nbeyond your years.\n"
+    trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "You handled yourself well. Keep\ntraining… there’s always room to grow\rstronger.\n"
+
+_1BA4: // Trainer 504
+    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "So… you’ve finally come. I am\nGiovanni, leader of Team Rocket.\rYou’ve been meddling in my affairs for\ntoo long. Face me, and see if you have\rwhat it takes to stop us.\n"
+    trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "…I underestimated you. Perhaps you’re\nstronger than I gave you credit for.\n"
+    trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "You’ve won this time… but remember,\nTeam Rocket never truly falls. Tread\rcarefully, Trainer.\n"
+
+_1BA8: // Trainer 506
+    trainertextentry 506, TEXT_NOTICE_IN_OVERWORLD, "So… this is it. The final challenge. I\nwon’t hold anything back. Let’s see\rwho’s truly stronger!\n"
+    trainertextentry 506, TEXT_DEFEATED_IN_BATTLE, "I… I can’t believe it… you were\nstronger than I expected…\n"
+    trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "That was incredible… I’ve learned so\nmuch from this battle. You’ve truly\rpushed me to my limits.\n"
+
+_1BAC: // Trainer 508
+    trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "I’ve been waiting for this moment… The\njourney ends here, but I won’t hold\rback. Let’s see who stands tallest!\n"
+    trainertextentry 508, TEXT_DEFEATED_IN_BATTLE, "No… I thought we had it… you really\nare amazing!\n"
+    trainertextentry 508, TEXT_DEFEATED_IN_OVERWORLD, "That was such a close battle! I’ve\nlearned a lot from facing you… you’re\rincredible.\n"
+
+_1BB0: // Trainer 511
+    trainertextentry 511, TEXT_NOTICE_IN_OVERWORLD, "Hey there, you look like an\ninteresting Trainer. Lets see what you\rare capable of! My name is Kyle by the\nway, Me and Victini are thrilled to\rbattle!\n"
+    trainertextentry 511, TEXT_DEFEATED_IN_BATTLE, "Aw man... We'll get em next time\nVictini!\n"
+    trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "That was an awesome battle! I can tell\nmy Pokemon had a fun time battling,\respecially Victini had fun but we will\ntrain hard and win next time!\n"
+
+_1BB4: // Trainer 514
+    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "Looks like we meet again, I've trained\nalot and have gotten stronger since\rthe last time we battled in Ilex\nForest! Lets do this Victini!\n"
+    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "Man you are always one step ahead of\nme...\n"
+    trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "If you keep going up you'll find the\nOlivine Gym Leader taking care of the\rAmpharos up at the top. I am glad\nsomeone is up there making sure\reverything is alright!\n"
+
+_1BB8: // Trainer 516
+    trainertextentry 516, TEXT_NOTICE_IN_OVERWORLD, "Welcome to Blackthorn City! I hope\nthat you have been getting stronger\rbecause I have been keeping up with my\ntraining and Victini has never been\rmore keen to battle you again!\n"
+    trainertextentry 516, TEXT_DEFEATED_IN_BATTLE, "Lost again... What kind of training do\nyou put yourself through?\n"
+    trainertextentry 516, TEXT_DEFEATED_IN_OVERWORLD, "If you look around in one of the\nHouses here there will be a strong\rTrainer that isnt the citys Gym\nLeader, but that is all I can tell\ryou.\n"
+
+_1BBC: // Trainer 519
+    trainertextentry 519, TEXT_NOTICE_IN_OVERWORLD, "So you are going to Kanto as well?\nI've heard the Gym Leaders in Kanto\rare no joke. But you have become\nChampion so I am positive that you\rwill wipe the floor with them! Lets\nhave a battle while we are here, we\rhavent battled since Blackthorn\nCity!\n"
+    trainertextentry 519, TEXT_DEFEATED_IN_BATTLE, "Like the past battles you come out at\nthe victor...\n"
+    trainertextentry 519, TEXT_DEFEATED_IN_OVERWORLD, "While I'm in Kanto I should switch up\nhow I approach battling Gyms and\rTrainers... Maybe use Weather to my\nadvantage?\n"
+
+_1BC0: // Trainer 521
+    trainertextentry 521, TEXT_NOTICE_IN_OVERWORLD, "Hey how are your Gym battles going so\nfar? Looks like you are on your way to\rCerulean City, the Cerulean Gym isnt\navailable right now so lets have a\rquick battle while we are here. Just a\nheads up I am using a different team\rthan usual.\n"
+    trainertextentry 521, TEXT_DEFEATED_IN_BATTLE, "Wow... Even against snowy weather you\nstill breeze through me...\n"
+    trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "Guess I'll have to switch up the\nweather for our next battle. When the\rCerulean Gym is up again Ill keep\ntraining to the fullest!\n"
+
+_1BC4: // Trainer 524
+    trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont lose to you\nbecause I'm going to turn the heat all\rthe way up! Lets go!!\n"
+    trainertextentry 524, TEXT_DEFEATED_IN_BATTLE, "You easily turned the heat up way more\nthan I did... Good stuff!\n"
+    trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "Well that was a great battle! Next\ntime we meet I'll be ready just you\rwait and see!\n"
+
+_1BC8: // Trainer 526
+    trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "Looks like you are doing well with\ntaking on the Kanto Gyms, so you know\rwhat that means right? It's time we\nhad another battle and I hope you got\ran umbrella!\n"
+    trainertextentry 526, TEXT_DEFEATED_IN_BATTLE, "I thought I had you that time...\n"
+    trainertextentry 526, TEXT_DEFEATED_IN_OVERWORLD, "Next time... next time I'll win for\nsure just gotta keep switching it\rup...\n"
+
+_1BCC: // Trainer 529
+    trainertextentry 529, TEXT_NOTICE_IN_OVERWORLD, "That Trainer over there in the corner?\nHis name is Blue, he was once Champion\rof Kanto for a little bit. Until his\nrival Red beat him and became\rChampion! I challenged him just before\nand he wiped the floor with me... He\risnt someone to mess around with, but\nenough of that I am gonna beat you\rhere and now with the sandstorm\nteam!\n"
+    trainertextentry 529, TEXT_DEFEATED_IN_BATTLE, "Just as I expected... You always have\na way to beat me. Well done!\n"
+    trainertextentry 529, TEXT_DEFEATED_IN_OVERWORLD, "...\nSo you have beaten every weather\nteam i could throw at you. I've gotta\rkeep training and I only know one more\nspot I can get stronger...\n"
+
+_1BD0: // Trainer 531
+    trainertextentry 531, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 531, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 531, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BD4: // Trainer 532
+    trainertextentry 532, TEXT_NOTICE_IN_OVERWORLD, "I must congratulate you for making it\nthis far, but even tougher challenges\rawait, starting with Me!\n"
+    trainertextentry 532, TEXT_DEFEATED_IN_BATTLE, "Congratulations on beating me.. I'll\nadmit you have surprised me\n"
+    trainertextentry 532, TEXT_DEFEATED_IN_OVERWORLD, "You may have defeated me but if you\nwant to stand a chance against the next\rtrainer you will need nerves of steel\neven greater than your next challenge!\n"
+
+_1BD8: // Trainer 542
+    trainertextentry 542, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 542, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 542, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BDC: // Trainer 543
+    trainertextentry 543, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 543, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 543, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BE0: // Trainer 544
+    trainertextentry 544, TEXT_NOTICE_IN_OVERWORLD, "You managed to defeat my friends,\nlooks like you trained very well...\rbut this is as far as you'll go! I'm\npulling all the stops! I'm going to\rwin this battle then I'll proceed to\nMt.Silver and take on the challenges\rthere and become a Legend!!\n"
+    trainertextentry 544, TEXT_DEFEATED_IN_BATTLE, "I... I lost...\n"
+    trainertextentry 544, TEXT_DEFEATED_IN_OVERWORLD, "You won the bet... You may proceed to\nMt.Silver...\n"
+
+_1BE4: // Trainer 667
+    trainertextentry 667, TEXT_NOTICE_IN_OVERWORLD, "Oh… hello. My name is Cheryl. I’ll do\nmy best. please, let’s have a kind and\rfair battle.\n"
+    trainertextentry 667, TEXT_DEFEATED_IN_BATTLE, "Oh… I see… You’re very strong.\n"
+    trainertextentry 667, TEXT_DEFEATED_IN_OVERWORLD, "Thank you… that battle helped me grow\na little stronger.\n"
+
+_1BE8: // Trainer 668
+    trainertextentry 668, TEXT_NOTICE_IN_OVERWORLD, "…I’m Marley. Let’s keep this battle\nquiet… and focused.\n"
+    trainertextentry 668, TEXT_DEFEATED_IN_BATTLE, "…You’re strong.\n"
+    trainertextentry 668, TEXT_DEFEATED_IN_OVERWORLD, "Battles like this… make you better.\nDon’t forget that.\n"
+
+_1BEC: // Trainer 669
+    trainertextentry 669, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Mira! Let’s have a fun\nbattle. I want to see how strong you\rare!\n"
+    trainertextentry 669, TEXT_DEFEATED_IN_BATTLE, "Oh no! I messed up again…\n"
+    trainertextentry 669, TEXT_DEFEATED_IN_OVERWORLD, "That was still fun! I’ll keep trying\nand get better next time!\n"
+
+_1BF0: // Trainer 670
+    trainertextentry 670, TEXT_NOTICE_IN_OVERWORLD, "I am Riley. Strength is not just\npower. it is understanding. Show me\ryours.\nn"
+    trainertextentry 670, TEXT_DEFEATED_IN_BATTLE, "…You’ve shown true strength. Well\ndone.\n"
+    trainertextentry 670, TEXT_DEFEATED_IN_OVERWORLD, "Your bond with your Pokémon is\nadmirable. Continue to refine it.\n"
+
+_1BF4: // Trainer 671
+    trainertextentry 671, TEXT_NOTICE_IN_OVERWORLD, "Hey! I’m Buck! I’ve been waiting for a\nbattle like this, let’s see what you’ve\rgot!\n"
+    trainertextentry 671, TEXT_DEFEATED_IN_BATTLE, "Whoa! That was intense! You’ve got\nserious power!\n"
+    trainertextentry 671, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! I’m gonna train even\nharder and come back stronger!\n"
+
+_1BF8: // Trainer 707
+    trainertextentry 707, TEXT_NOTICE_IN_OVERWORLD, "So, you’ve climbed this far. I am\nPalmer, the Tower Tycoon and I don’t\rgo easy on challengers who make it to\nme. Show me the strength that brought\ryou here!\n"
+    trainertextentry 707, TEXT_DEFEATED_IN_BATTLE, "Ha! Outstanding! You’ve got real power\nbehind you!\n"
+    trainertextentry 707, TEXT_DEFEATED_IN_OVERWORLD, "That was a battle worth remembering!\nKeep pushing forward, you’ve got what\rit takes to go even further!\n"
+
+_1BFC: // Trainer 708
+    trainertextentry 708, TEXT_NOTICE_IN_OVERWORLD, "…So, you are the one who has come this\nfar. I am Argenta, the Hall Matron.\rHere, adaptability is everything, let\nus see how well you can face what lies\rahead.\n"
+    trainertextentry 708, TEXT_DEFEATED_IN_BATTLE, "…I see. You’ve adapted well to the\nchallenge before you.\n"
+    trainertextentry 708, TEXT_DEFEATED_IN_OVERWORLD, "Battles are everchanging. Continue to\nadapt, and you will overcome any\rtrial.\n"
+
+_1C00: // Trainer 709
+    trainertextentry 709, TEXT_NOTICE_IN_OVERWORLD, "Analyzing challenger data… complete. I\nam Thorton, Factory Head. This\rfacility runs on calculated decisions.\nLet’s see how you perform under\rcontrolled conditions.\n"
+    trainertextentry 709, TEXT_DEFEATED_IN_BATTLE, "…Unexpected result. Your strategy\nexceeded projections.\n"
+    trainertextentry 709, TEXT_DEFEATED_IN_OVERWORLD, "Conclusion: adaptability and intuition\ncan surpass calculation. Fascinating…\rI will update my data accordingly.\n"
+
+_1C04: // Trainer 710
+    trainertextentry 710, TEXT_NOTICE_IN_OVERWORLD, "Ooh, a challenger! I’m Dahlia, the\nArcade Star! Around here, it’s all\rabout luck and style, let’s see if\nfortune’s on your side!\n"
+    trainertextentry 710, TEXT_DEFEATED_IN_BATTLE, "Aww! Looks like luck wasn’t on my side\nthis time!\n"
+    trainertextentry 710, TEXT_DEFEATED_IN_OVERWORLD, "That was so much fun! Whether it’s\nluck or skill, you’ve definitely got\rsomething special!\n"
+
+_1C08: // Trainer 711
+    trainertextentry 711, TEXT_NOTICE_IN_OVERWORLD, "Welcome, challenger. I am Darach, the\nCastle Valet. It is my duty to test\ryour worth before you may proceed.\nPray, show me your strength.\n"
+    trainertextentry 711, TEXT_DEFEATED_IN_BATTLE, "…A fine display. You have proven your\ncapability.\n"
+    trainertextentry 711, TEXT_DEFEATED_IN_OVERWORLD, "You have earned the right to advance.\nCarry yourself with the same grace,\rand you will go far.\n"
+
+_1C0C: // Trainer 229
+    trainertextentry 229, TEXT_NOTICE_IN_OVERWORLD, "WAHAHA! You’re in for a tidal wave of\npower! Me and Juan are gonna wash you\raway!\n"
+    trainertextentry 229, TEXT_DEFEATED_IN_BATTLE, "Gah! You soaked up all that power and\nkept going?!\n"
+    trainertextentry 229, TEXT_DEFEATED_IN_OVERWORLD, "HAHA! That was one wild ride! You’ve\ngot the guts of a true battler!\n"
+
+_1C10: // Trainer 226
+    trainertextentry 226, TEXT_NOTICE_IN_OVERWORLD, "I am Norman, the Gym Leader here.\nStrength comes from consistent effort\rand discipline. Show me what you’ve\nlearned.\n"
+    trainertextentry 226, TEXT_DEFEATED_IN_BATTLE, "…I see. Your training has paid off.\n"
+    trainertextentry 226, TEXT_DEFEATED_IN_OVERWORLD, "Victory is earned through\nperseverance. Continue honing your\rskills, and you will only grow\nstronger.\n"
+
 
 .close
 
@@ -3111,7 +3484,7 @@ _1AD0: // Trainer 630
 /* Trainer   8 */ .halfword _0A14
 /* Trainer   9 */ .halfword _0C8C
 /* Trainer  10 */ .halfword _0224
-/* Trainer  11 */ .halfword _0000
+/* Trainer  11 */ .halfword _1AD4
 /* Trainer  12 */ .halfword _1218
 /* Trainer  13 */ .halfword _1230
 /* Trainer  14 */ .halfword _1370
@@ -3119,7 +3492,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _0000
+/* Trainer  19 */ .halfword _1AD8
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
@@ -3140,7 +3513,7 @@ _1AD0: // Trainer 630
 /* Trainer  37 */ .halfword _1254
 /* Trainer  38 */ .halfword _0830
 /* Trainer  39 */ .halfword _0C68
-/* Trainer  40 */ .halfword _0000
+/* Trainer  40 */ .halfword _1ADC
 /* Trainer  41 */ .halfword _0FB4
 /* Trainer  42 */ .halfword _1170
 /* Trainer  43 */ .halfword _1008
@@ -3160,7 +3533,7 @@ _1AD0: // Trainer 630
 /* Trainer  57 */ .halfword _0A70
 /* Trainer  58 */ .halfword _08EC
 /* Trainer  59 */ .halfword _0764
-/* Trainer  60 */ .halfword _0A80
+/* Trainer  60 */ .halfword _1AE0
 /* Trainer  61 */ .halfword _0AB4
 /* Trainer  62 */ .halfword _0B20
 /* Trainer  63 */ .halfword _0000
@@ -3187,8 +3560,8 @@ _1AD0: // Trainer 630
 /* Trainer  84 */ .halfword _05A8
 /* Trainer  85 */ .halfword _0C98
 /* Trainer  86 */ .halfword _0C80
-/* Trainer  87 */ .halfword _0000
-/* Trainer  88 */ .halfword _0000
+/* Trainer  87 */ .halfword _1AE4
+/* Trainer  88 */ .halfword _1AE8
 /* Trainer  89 */ .halfword _02A4
 /* Trainer  90 */ .halfword _0CE0
 /* Trainer  91 */ .halfword _0CEC
@@ -3205,9 +3578,9 @@ _1AD0: // Trainer 630
 /* Trainer 102 */ .halfword _0980
 /* Trainer 103 */ .halfword _09D4
 /* Trainer 104 */ .halfword _09E0
-/* Trainer 105 */ .halfword _0000
-/* Trainer 106 */ .halfword _0000
-/* Trainer 107 */ .halfword _0000
+/* Trainer 105 */ .halfword _1AEC
+/* Trainer 106 */ .halfword _1AF0
+/* Trainer 107 */ .halfword _1AF4
 /* Trainer 108 */ .halfword _0DFC
 /* Trainer 109 */ .halfword _0E8C
 /* Trainer 110 */ .halfword _0334
@@ -3238,10 +3611,10 @@ _1AD0: // Trainer 630
 /* Trainer 135 */ .halfword _0808
 /* Trainer 136 */ .halfword _05B0
 /* Trainer 137 */ .halfword _0D94
-/* Trainer 138 */ .halfword _0000
+/* Trainer 138 */ .halfword _1AF8
 /* Trainer 139 */ .halfword _0F18
 /* Trainer 140 */ .halfword _061C
-/* Trainer 141 */ .halfword _0000
+/* Trainer 141 */ .halfword _1AFC
 /* Trainer 142 */ .halfword _1A50
 /* Trainer 143 */ .halfword _0E18
 /* Trainer 144 */ .halfword _0E24
@@ -3265,22 +3638,22 @@ _1AD0: // Trainer 630
 /* Trainer 162 */ .halfword _0E7C
 /* Trainer 163 */ .halfword _0E80
 /* Trainer 164 */ .halfword _0E84
-/* Trainer 165 */ .halfword _0000
-/* Trainer 166 */ .halfword _0000
-/* Trainer 167 */ .halfword _0000
-/* Trainer 168 */ .halfword _0000
-/* Trainer 169 */ .halfword _0000
-/* Trainer 170 */ .halfword _0000
-/* Trainer 171 */ .halfword _0000
+/* Trainer 165 */ .halfword _1B00
+/* Trainer 166 */ .halfword _1B04
+/* Trainer 167 */ .halfword _1B08
+/* Trainer 168 */ .halfword _1B0C
+/* Trainer 169 */ .halfword _1B10
+/* Trainer 170 */ .halfword _1B14
+/* Trainer 171 */ .halfword _1B18
 /* Trainer 172 */ .halfword _1A2C
 /* Trainer 173 */ .halfword _1A30
-/* Trainer 174 */ .halfword _0000
+/* Trainer 174 */ .halfword _1B1C
 /* Trainer 175 */ .halfword _0000
 /* Trainer 176 */ .halfword _0000
 /* Trainer 177 */ .halfword _0000
 /* Trainer 178 */ .halfword _10A0
 /* Trainer 179 */ .halfword _07FC
-/* Trainer 180 */ .halfword _0000
+/* Trainer 180 */ .halfword _1B20
 /* Trainer 181 */ .halfword _1074
 /* Trainer 182 */ .halfword _1080
 /* Trainer 183 */ .halfword _05AC
@@ -3294,7 +3667,7 @@ _1AD0: // Trainer 630
 /* Trainer 191 */ .halfword _1108
 /* Trainer 192 */ .halfword _1134
 /* Trainer 193 */ .halfword _1388
-/* Trainer 194 */ .halfword _0000
+/* Trainer 194 */ .halfword _1B24
 /* Trainer 195 */ .halfword _1394
 /* Trainer 196 */ .halfword _13B8
 /* Trainer 197 */ .halfword _13C4
@@ -3307,8 +3680,8 @@ _1AD0: // Trainer 630
 /* Trainer 204 */ .halfword _11DC
 /* Trainer 205 */ .halfword _11E8
 /* Trainer 206 */ .halfword _11F4
-/* Trainer 207 */ .halfword _0000
-/* Trainer 208 */ .halfword _0000
+/* Trainer 207 */ .halfword _1B28
+/* Trainer 208 */ .halfword _1B2C
 /* Trainer 209 */ .halfword _0F48
 /* Trainer 210 */ .halfword _0000
 /* Trainer 211 */ .halfword _127C
@@ -3321,15 +3694,15 @@ _1AD0: // Trainer 630
 /* Trainer 218 */ .halfword _12DC
 /* Trainer 219 */ .halfword _12E8
 /* Trainer 220 */ .halfword _12F4
-/* Trainer 221 */ .halfword _0000
+/* Trainer 221 */ .halfword _1B30
 /* Trainer 222 */ .halfword _1328
 /* Trainer 223 */ .halfword _12C8
 /* Trainer 224 */ .halfword _12CC
-/* Trainer 225 */ .halfword _0000
-/* Trainer 226 */ .halfword _0000
+/* Trainer 225 */ .halfword _1B34
+/* Trainer 226 */ .halfword _1C10
 /* Trainer 227 */ .halfword _13D0
 /* Trainer 228 */ .halfword _13A0
-/* Trainer 229 */ .halfword _0000
+/* Trainer 229 */ .halfword _1C0C
 /* Trainer 230 */ .halfword _05B8
 /* Trainer 231 */ .halfword _0F24
 /* Trainer 232 */ .halfword _054C
@@ -3362,7 +3735,7 @@ _1AD0: // Trainer 630
 /* Trainer 259 */ .halfword _043C
 /* Trainer 260 */ .halfword _1418
 /* Trainer 261 */ .halfword _03E8
-/* Trainer 262 */ .halfword _0000
+/* Trainer 262 */ .halfword _1B38
 /* Trainer 263 */ .halfword _0054
 /* Trainer 264 */ .halfword _00B4
 /* Trainer 265 */ .halfword _0000
@@ -3373,7 +3746,7 @@ _1AD0: // Trainer 630
 /* Trainer 270 */ .halfword _0074
 /* Trainer 271 */ .halfword _00A4
 /* Trainer 272 */ .halfword _00D4
-/* Trainer 273 */ .halfword _0000
+/* Trainer 273 */ .halfword _1B3C
 /* Trainer 274 */ .halfword _1AA4
 /* Trainer 275 */ .halfword _1AA8
 /* Trainer 276 */ .halfword _18AC
@@ -3392,10 +3765,10 @@ _1AD0: // Trainer 630
 /* Trainer 289 */ .halfword _0094
 /* Trainer 290 */ .halfword _1050
 /* Trainer 291 */ .halfword _08BC
-/* Trainer 292 */ .halfword _0000
+/* Trainer 292 */ .halfword _1B40
 /* Trainer 293 */ .halfword _08D4
 /* Trainer 294 */ .halfword _08E0
-/* Trainer 295 */ .halfword _0000
+/* Trainer 295 */ .halfword _1B44
 /* Trainer 296 */ .halfword _0904
 /* Trainer 297 */ .halfword _051C
 /* Trainer 298 */ .halfword _0528
@@ -3404,10 +3777,10 @@ _1AD0: // Trainer 630
 /* Trainer 301 */ .halfword _0880
 /* Trainer 302 */ .halfword _088C
 /* Trainer 303 */ .halfword _1888
-/* Trainer 304 */ .halfword _0000
-/* Trainer 305 */ .halfword _0000
-/* Trainer 306 */ .halfword _0000
-/* Trainer 307 */ .halfword _0000
+/* Trainer 304 */ .halfword _1B48
+/* Trainer 305 */ .halfword _1B4C
+/* Trainer 306 */ .halfword _1B50
+/* Trainer 307 */ .halfword _1B54
 /* Trainer 308 */ .halfword _04EC
 /* Trainer 309 */ .halfword _0698
 /* Trainer 310 */ .halfword _06A4
@@ -3438,16 +3811,16 @@ _1AD0: // Trainer 630
 /* Trainer 335 */ .halfword _1894
 /* Trainer 336 */ .halfword _0590
 /* Trainer 337 */ .halfword _0540
-/* Trainer 338 */ .halfword _0000
+/* Trainer 338 */ .halfword _1B58
 /* Trainer 339 */ .halfword _0F6C
-/* Trainer 340 */ .halfword _0000
-/* Trainer 341 */ .halfword _0000
-/* Trainer 342 */ .halfword _0000
-/* Trainer 343 */ .halfword _0000
-/* Trainer 344 */ .halfword _0000
-/* Trainer 345 */ .halfword _0000
+/* Trainer 340 */ .halfword _1B5C
+/* Trainer 341 */ .halfword _1B60
+/* Trainer 342 */ .halfword _1B64
+/* Trainer 343 */ .halfword _1B68
+/* Trainer 344 */ .halfword _1B6C
+/* Trainer 345 */ .halfword _1B70
 /* Trainer 346 */ .halfword _059C
-/* Trainer 347 */ .halfword _0000
+/* Trainer 347 */ .halfword _1B74
 /* Trainer 348 */ .halfword _071C
 /* Trainer 349 */ .halfword _07B0
 /* Trainer 350 */ .halfword _07D8
@@ -3472,11 +3845,11 @@ _1AD0: // Trainer 630
 /* Trainer 369 */ .halfword _05DC
 /* Trainer 370 */ .halfword _08A4
 /* Trainer 371 */ .halfword _08B0
-/* Trainer 372 */ .halfword _0000
+/* Trainer 372 */ .halfword _1B78
 /* Trainer 373 */ .halfword _08C8
 /* Trainer 374 */ .halfword _08F8
-/* Trainer 375 */ .halfword _0000
-/* Trainer 376 */ .halfword _0000
+/* Trainer 375 */ .halfword _1B7C
+/* Trainer 376 */ .halfword _1B80
 /* Trainer 377 */ .halfword _0000
 /* Trainer 378 */ .halfword _0644
 /* Trainer 379 */ .halfword _0650
@@ -3494,7 +3867,7 @@ _1AD0: // Trainer 630
 /* Trainer 391 */ .halfword _1340
 /* Trainer 392 */ .halfword _134C
 /* Trainer 393 */ .halfword _1364
-/* Trainer 394 */ .halfword _0000
+/* Trainer 394 */ .halfword _1B84
 /* Trainer 395 */ .halfword _0BB4
 /* Trainer 396 */ .halfword _0558
 /* Trainer 397 */ .halfword _0C24
@@ -3542,8 +3915,8 @@ _1AD0: // Trainer 630
 /* Trainer 439 */ .halfword _1A48
 /* Trainer 440 */ .halfword _1924
 /* Trainer 441 */ .halfword _1928
-/* Trainer 442 */ .halfword _0000
-/* Trainer 443 */ .halfword _0000
+/* Trainer 442 */ .halfword _1B88
+/* Trainer 443 */ .halfword _1B8C
 /* Trainer 444 */ .halfword _19D8
 /* Trainer 445 */ .halfword _19DC
 /* Trainer 446 */ .halfword _188C
@@ -3573,11 +3946,11 @@ _1AD0: // Trainer 630
 /* Trainer 470 */ .halfword _12B0
 /* Trainer 471 */ .halfword _10E4
 /* Trainer 472 */ .halfword _1128
-/* Trainer 473 */ .halfword _0000
-/* Trainer 474 */ .halfword _0000
-/* Trainer 475 */ .halfword _0000
-/* Trainer 476 */ .halfword _0000
-/* Trainer 477 */ .halfword _0000
+/* Trainer 473 */ .halfword _1B90
+/* Trainer 474 */ .halfword _1B94
+/* Trainer 475 */ .halfword _1B98
+/* Trainer 476 */ .halfword _1B9C
+/* Trainer 477 */ .halfword _1BA0
 /* Trainer 478 */ .halfword _1150
 /* Trainer 479 */ .halfword _12D0
 /* Trainer 480 */ .halfword _02F8
@@ -3604,35 +3977,35 @@ _1AD0: // Trainer 630
 /* Trainer 501 */ .halfword _13EC
 /* Trainer 502 */ .halfword _13F8
 /* Trainer 503 */ .halfword _1950
-/* Trainer 504 */ .halfword _0000
+/* Trainer 504 */ .halfword _1BA4
 /* Trainer 505 */ .halfword _1A40
-/* Trainer 506 */ .halfword _0000
+/* Trainer 506 */ .halfword _1BA8
 /* Trainer 507 */ .halfword _1920
-/* Trainer 508 */ .halfword _0000
+/* Trainer 508 */ .halfword _1BAC
 /* Trainer 509 */ .halfword _192C
 /* Trainer 510 */ .halfword _1944
-/* Trainer 511 */ .halfword _0000
+/* Trainer 511 */ .halfword _1BB0
 /* Trainer 512 */ .halfword _1938
 /* Trainer 513 */ .halfword _1AB8
-/* Trainer 514 */ .halfword _0000
+/* Trainer 514 */ .halfword _1BB4
 /* Trainer 515 */ .halfword _1A94
-/* Trainer 516 */ .halfword _0000
+/* Trainer 516 */ .halfword _1BB8
 /* Trainer 517 */ .halfword _1A70
 /* Trainer 518 */ .halfword _18B4
-/* Trainer 519 */ .halfword _0000
+/* Trainer 519 */ .halfword _1BBC
 /* Trainer 520 */ .halfword _1A58
-/* Trainer 521 */ .halfword _0000
+/* Trainer 521 */ .halfword _1BC0
 /* Trainer 522 */ .halfword _19A4
 /* Trainer 523 */ .halfword _19B0
-/* Trainer 524 */ .halfword _0000
+/* Trainer 524 */ .halfword _1BC4
 /* Trainer 525 */ .halfword _1AAC
-/* Trainer 526 */ .halfword _0000
+/* Trainer 526 */ .halfword _1BC8
 /* Trainer 527 */ .halfword _1A1C
 /* Trainer 528 */ .halfword _1AC4
-/* Trainer 529 */ .halfword _0000
+/* Trainer 529 */ .halfword _1BCC
 /* Trainer 530 */ .halfword _1A34
-/* Trainer 531 */ .halfword _0000
-/* Trainer 532 */ .halfword _0000
+/* Trainer 531 */ .halfword _1BD0
+/* Trainer 532 */ .halfword _1BD4
 /* Trainer 533 */ .halfword _0000
 /* Trainer 534 */ .halfword _0000
 /* Trainer 535 */ .halfword _0000
@@ -3642,9 +4015,9 @@ _1AD0: // Trainer 630
 /* Trainer 539 */ .halfword _17D8
 /* Trainer 540 */ .halfword _0680
 /* Trainer 541 */ .halfword _068C
-/* Trainer 542 */ .halfword _0000
-/* Trainer 543 */ .halfword _0000
-/* Trainer 544 */ .halfword _0000
+/* Trainer 542 */ .halfword _1BD8
+/* Trainer 543 */ .halfword _1BDC
+/* Trainer 544 */ .halfword _1BE0
 /* Trainer 545 */ .halfword _1498
 /* Trainer 546 */ .halfword _14A4
 /* Trainer 547 */ .halfword _14B0
@@ -3767,11 +4140,11 @@ _1AD0: // Trainer 630
 /* Trainer 664 */ .halfword _1A20
 /* Trainer 665 */ .halfword _1A24
 /* Trainer 666 */ .halfword _1A28
-/* Trainer 667 */ .halfword _0000
-/* Trainer 668 */ .halfword _0000
-/* Trainer 669 */ .halfword _0000
-/* Trainer 670 */ .halfword _0000
-/* Trainer 671 */ .halfword _0000
+/* Trainer 667 */ .halfword _1BE4
+/* Trainer 668 */ .halfword _1BE8
+/* Trainer 669 */ .halfword _1BEC
+/* Trainer 670 */ .halfword _1BF0
+/* Trainer 671 */ .halfword _1BF4
 /* Trainer 672 */ .halfword _18A0
 /* Trainer 673 */ .halfword _18A4
 /* Trainer 674 */ .halfword _18A8
@@ -3807,11 +4180,11 @@ _1AD0: // Trainer 630
 /* Trainer 704 */ .halfword _03C4
 /* Trainer 705 */ .halfword _03D0
 /* Trainer 706 */ .halfword _1114
-/* Trainer 707 */ .halfword _0000
-/* Trainer 708 */ .halfword _0000
-/* Trainer 709 */ .halfword _0000
-/* Trainer 710 */ .halfword _0000
-/* Trainer 711 */ .halfword _0000
+/* Trainer 707 */ .halfword _1BF8
+/* Trainer 708 */ .halfword _1BFC
+/* Trainer 709 */ .halfword _1C00
+/* Trainer 710 */ .halfword _1C04
+/* Trainer 711 */ .halfword _1C08
 /* Trainer 712 */ .halfword _01AC
 /* Trainer 713 */ .halfword _01B8
 /* Trainer 714 */ .halfword _01C4
