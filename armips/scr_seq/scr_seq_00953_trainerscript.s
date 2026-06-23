@@ -748,13 +748,6 @@
 /* Trainer 737 */ scrdef scr_seq_0953_normalTrainer
 /* Trainer 738 */ scrdef scr_seq_0953_normalTrainer
 /* Trainer 739 */ scrdef scr_seq_0953_739
-/* Trainer 740 */ scrdef scr_seq_0953_740
-/* Trainer 741 */ scrdef scr_seq_0953_741
-/* Trainer 742 */ scrdef scr_seq_0953_742
-/* Trainer 743 */ scrdef scr_seq_0953_743
-/* Trainer 744 */ scrdef scr_seq_0953_744
-/* Trainer 745 */ scrdef scr_seq_0953_745
-/* Trainer 746 */ scrdef scr_seq_0953_746
 
 // to add new trainers, just keep the list going here with more normalTrainer entries.
 
