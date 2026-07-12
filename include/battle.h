@@ -1326,7 +1326,6 @@ typedef struct MovePerformanceContext {
     int hitSubstitute[3];
 } MovePerformanceContext;
 
-
 #define BATTLE_SCRIPT_PUSH_DEPTH 4
 
 /**
@@ -1558,8 +1557,11 @@ struct BattleStruct {
                u8 playerSideHasFaintedTeammateLastTurn : 2;
                u8 enemySideHasFaintedTeammateLastTurn : 2;
 
-               u8 gemBoostingMove: 1;
-               u8 futureSightHitTurn: 1;
+               u8 battleInfoActive;
+               void *battleInfoApp;
+
+               u8 gemBoostingMove : 1;
+               u8 futureSightHitTurn : 1;
                u8 futureSightNoAttacker : 1;
                u8 futureSightSTAB : 1;
                u8 gemBoostingMovePadding : 4;
@@ -1824,6 +1826,7 @@ struct PACKED newBattleStruct
     CATS_ACT_PTR MegaOAM;
     CATS_ACT_PTR MegaButton;
     CATS_ACT_PTR WeatherOAM;
+    CATS_ACT_PTR CommandHintOAM;
     SysTask *weatherUpdateTask;
 
 #ifdef RESTORE_ITEMS_AT_BATTLE_END
@@ -2147,9 +2150,9 @@ enum {
     BEFORE_MOVE_STATE_UPROAR_STOPPING_MOVES,
     BEFORE_MOVE_STATE_SAFEGUARD,
     BEFORE_MOVE_STATE_TERRAIN_BLOCK,
-    BEFORE_MOVE_STATE_SUBSTITUTE_BLOCKING_STAT_DROPS_DECORATE,
+    BEFORE_MOVE_STATE_SUBSTITUTE_BLOCKING_STAT_DROPS_DECORATE, // sub
     BEFORE_MOVE_STATE_MIST,
-    BEFORE_MOVE_STATE_ABILITY_FAILURES_4_STAT_BASED_FAILURES,
+    BEFORE_MOVE_STATE_ABILITY_FAILURES_4_STAT_BASED_FAILURES, // ability block
     BEFORE_MOVE_STATE_ABILITY_FAILURES_4_STATUS_BASED_FAILURES,
     BEFORE_MOVE_STATE_ABILITY_FAILURES_4_OTHER_AROMA_VEIL_STRUDY,
     BEFORE_MOVE_STATE_MOVE_ACCURACY,
@@ -2338,20 +2341,16 @@ extern u8 StatBoostModifiers[13][2];
 
 extern u16 WeightMoveList[6];
 
-
-
-
-
-
-
-
-
-
-
-
-
 extern struct newBattleStruct newBS;
 extern struct ILLUSION_STRUCT gIllusionStruct;
+
+#define IS_CLIENT_IN_ILLUSION_NO_ABILITY(bsys, client) (                                   \
+    gIllusionStruct.isSideInIllusion & No2Bit(SanitizeClientForTeamAccess(bsys, client))   \
+    && gIllusionStruct.illusionClient[SanitizeClientForTeamAccess(bsys, client)] == client \
+    && gIllusionStruct.illusionPos[SanitizeClientForTeamAccess(bsys, client)] == bsys->sp->sel_mons_no[client])
+
+#define IS_CLIENT_IN_ILLUSION(bsys, client) (IS_CLIENT_IN_ILLUSION_NO_ABILITY(bsys, client) && GetBattlerAbility(bsys->sp, client) == ABILITY_ILLUSION)
+
 extern const u16 TetsunoKobushiTable[0xF];
 
 int LONG_CALL BattlePokemonParamGet(void*,int ,int,void*);

@@ -1,4 +1,5 @@
 #include "../../include/battle.h"
+#include "../../include/battle_info.h"
 #include "../../include/battle_controller_player.h"
 #include "../../include/config.h"
 #include "../../include/constants/battle_message_constants.h"
@@ -87,6 +88,8 @@ BOOL LONG_CALL BattleContext_Main(struct BattleSystem *bsys, struct BattleStruct
     }
 
     sPlayerBattleCommands[ctx->server_seq_no](bsys, ctx);
+        BattleHpBarPct_UpdateAll(bsys, ctx);
+    BattleInfo_UpdateOverlayLifetime(ctx);
 #ifdef DEBUG_BATTLE_SCENARIOS
     TestBattle_autoSelectPlayerMoves(bsys, ctx);
 #endif

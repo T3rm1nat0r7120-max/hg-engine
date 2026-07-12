@@ -1,5 +1,7 @@
 #include "../../include/types.h"
 #include "../../include/battle.h"
+#include "../../include/battle_info.h"
+#include "../../include/battle_input.h"
 #include "../../include/config.h"
 #include "../../include/pokemon.h"
 #include "../../include/sprite.h"
@@ -204,6 +206,7 @@ void Sub_PokeIconResourceLoad(struct BI_PARAM *bip)
 
     OAM_LoadResourceCellAnmArc(csp, crp, ARC_ITEM_GFX_DATA, 0, 0, MEGA_ICON_CELL_ANIM_TAG);
 
+    BattleInfoHint_LoadResources(bip);
 
     // weather
     if (bip->bw->sp->field_condition & WEATHER_ANY_ICONS)
@@ -280,6 +283,7 @@ void Sub_PokeIconResourceFree(struct BI_PARAM *bip)
             newBS.playerWantMega = FALSE;
         newBS.MegaIconLight = 0;
     }
+    BattleInfoHint_FreeResources(bip);
 
 
 
@@ -380,6 +384,7 @@ void LoadMegaIcon(struct BI_PARAM *bip)
         OAM_ObjectUpdate(newBS.WeatherOAM->act);
         newBS.weatherUpdateTask = CreateSysTask((SysTaskFunc)0x022684ED, newBS.WeatherOAM, 1300); // 0x022684ED is the pokemon icon animation function
     }
+    BattleInfoHint_LoadSprite(bip);
 }
 
 /**
