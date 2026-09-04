@@ -10411,55 +10411,55 @@ pokemon SPECIES_NONE
 
 encounterdata 100   // Fuchsia City
 
-walkrate 0
+walkrate 10
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SWALOT
+pokemon SPECIES_SKUNTANK
+pokemon SPECIES_AMOONGUSS
+pokemon SPECIES_AMOONGUSS
+pokemon SPECIES_DRAPION
+pokemon SPECIES_DRAPION
+pokemon SPECIES_SCOLIPEDE
+pokemon SPECIES_TOXICROAK
+pokemon SPECIES_NAGANADEL
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_PECHARUNT
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_GLIMMORA
+pokemon SPECIES_CLODSIRE
+pokemon SPECIES_ROSERADE
+pokemon SPECIES_ROSERADE
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_DRAGALGE
+pokemon SPECIES_SNEASLER
+pokemon SPECIES_NAGANADEL
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_PECHARUNT
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_WEEZING
+pokemon SPECIES_GRAFAIAI
+pokemon SPECIES_TOXAPEX
+pokemon SPECIES_TOXAPEX
+pokemon SPECIES_REVAVROOM
+pokemon SPECIES_REVAVROOM
+pokemon SPECIES_TOXTRICITY
+pokemon SPECIES_SALAZZLE
+pokemon SPECIES_NAGANADEL
+pokemon SPECIES_MUNKIDORI
+pokemon SPECIES_MUNKIDORI
+pokemon SPECIES_PECHARUNT
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -10502,7 +10502,7 @@ encounter SPECIES_MAGIKARP, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
-pokemon SPECIES_NONE
+pokemon SPECIES_ARIADOS
 // swarm surf
 pokemon SPECIES_MAGIKARP
 // swarm good rod
@@ -10515,55 +10515,55 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata 101   // Cinnabar Island
 
-walkrate 0
+walkrate 10
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_COALOSSAL
+pokemon SPECIES_SCOVILLAIN
+pokemon SPECIES_PYROAR
+pokemon SPECIES_PYROAR
+pokemon SPECIES_VOLCARONA
+pokemon SPECIES_VOLCARONA
+pokemon SPECIES_CHARIZARD
+pokemon SPECIES_TYPHLOSION
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_CHI_YU
+pokemon SPECIES_GOUGING_FIRE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_TURTONATOR
+pokemon SPECIES_CENTISKORCH
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_ARMAROUGE
+pokemon SPECIES_CERULEDGE
+pokemon SPECIES_CINDERACE
+pokemon SPECIES_BLAZIKEN
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_CHI_YU
+pokemon SPECIES_GOUGING_FIRE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DARMANITAN
+pokemon SPECIES_CAMERUPT
+pokemon SPECIES_HOUNDOOM
+pokemon SPECIES_HOUNDOOM
+pokemon SPECIES_CHANDELURE
+pokemon SPECIES_CHANDELURE
+pokemon SPECIES_DELPHOX
+pokemon SPECIES_INCINEROAR
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_CHI_YU
+pokemon SPECIES_GOUGING_FIRE
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -10606,7 +10606,7 @@ encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 
 // swarm grass
-pokemon SPECIES_NONE
+pokemon SPECIES_MAGCARGO
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
