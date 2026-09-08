@@ -41927,7 +41927,7 @@ const SpriteFrameData __data[] = {
         .shadowXOffset = 0,
         .shadowSize = 2,
     },
-    [SPECIES_PECHARUNT] = {
+    [SPECIES_MAX_MON_NUM] = {
         .frontHeader = {
             .cryDelay = 0,
             .animation = 2,
