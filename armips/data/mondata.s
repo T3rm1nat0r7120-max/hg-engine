@@ -28398,7 +28398,7 @@ mondata SPECIES_MEGA_ABSOL_Z, "-----"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE
+    abilities ABILITY_SHARPNESS, ABILITY_SHARPNESS
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
 
@@ -28430,7 +28430,7 @@ mondata SPECIES_MEGA_GARCHOMP_Z, "-----"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_SAND_VEIL, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -28830,7 +28830,7 @@ mondata SPECIES_MEGA_GOLISOPOD, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_WATER_3
-    abilities ABILITY_EMERGENCY_EXIT, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
 
