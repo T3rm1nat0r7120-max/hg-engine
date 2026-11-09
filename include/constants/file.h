@@ -6,6 +6,7 @@
 #define ARC_BATTLE_SUB_SEQ     1
 #define ARC_PERSONAL           2
 #define ARC_MON_PIC            4
+#define ARC_MON_PIC_HEIGHT     5
 #define ARC_BATTLE_GFX         8
 #define ARC_MOVE_DATA          11
 #define ARC_ITEM_DATA          17
@@ -62,6 +63,7 @@
 #define CODE_ADDON_BACKGROUND_GFX_IDS     17
 #define CODE_ADDON_HIDDEN_ITEM_PARAMS     18
 #define CODE_ADDON_ABILITY_FLAGS          19
+#define CODE_ADDON_MACHINE_MOVES          20
 
 // a015 file indexes
 #define BAG_HM_ICON 37
